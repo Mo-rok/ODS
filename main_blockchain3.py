@@ -64,6 +64,9 @@ class ODS_blockchain():
 
         #thread_canditate.start()
         #thread_pick.start()
+    
+    def check_balance(self):
+        pass
 
     def new_block(self, address, validator_signature, previous_hash=None):                #Процедура генерации блока
         """
